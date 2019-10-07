@@ -90,13 +90,14 @@
   padding: 10px 20px;
   border-radius: 20px;
   box-shadow: 0 10px 21px #e7eeef;
+  display: block;
   color: white;
   font-weight: 600;
 }
 
 .incoming-message .message__author {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 12px;
   font-weight: 600;
 }
