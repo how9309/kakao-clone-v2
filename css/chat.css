@@ -30,13 +30,23 @@
   font-size: 14px;
 }
 
-.chat-screen {
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+  box-shadow: 0 10px 21px #eaeff0;
+}
+
+.chats-body {
   background-image: url("../images/chatBg.png");
   min-height: 100vh;
 }
 
 .chats-body {
-  padding: 0;
+  padding: 10px 0px;
+  padding-top: 100px;
 }
 
 .chats-body .header,
